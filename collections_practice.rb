@@ -33,6 +33,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.slice!(1)
-  array.each {|item| item << 's'}
+  array.reject(|x| x == 1).collect{|x| x << 's'}
 end
