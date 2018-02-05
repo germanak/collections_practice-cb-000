@@ -33,5 +33,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.reject{}|x| x == 1}.collect{|x| x << 's'}
+  array.reject{|x| x == 1}.collect{|x| x << 's'}
 end
