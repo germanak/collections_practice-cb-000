@@ -33,5 +33,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array[0, 2:array.length] << 's'
+  array[0, 2..array.length] << 's'
 end
